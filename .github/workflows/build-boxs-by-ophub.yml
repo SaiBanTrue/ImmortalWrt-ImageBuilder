@@ -214,7 +214,7 @@ on:
       rootfs_partsize:
         description: '软件包大小1G固定'
         required: true
-        default: "2048"
+        default: "1024"
         type: choice
         options:
           - '1024'
