@@ -304,7 +304,7 @@ jobs:
           echo "file=$ROOTFS_FILE" >> $GITHUB_OUTPUT
 
       - name: Package armsr-armv8 as ImmortalWrt by ophub
-        uses: ophub/amlogic-s9xxx-openwrt@main
+        uses: ophub/amlogic-s9xxx-openwrt@OpenWrt_immortalwrt_master_save_2026.08
         with:
           openwrt_path: ${{ steps.find_rootfs.outputs.file }}
           openwrt_board: ${{ inputs.openwrt_board }}
